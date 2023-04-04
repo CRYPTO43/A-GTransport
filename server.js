@@ -5,7 +5,7 @@ const HTTP_PORT = process.env.PORT || 8080;
 
 app.use(express.json());
 
-app.use(express.static(__dirname+"/assets"));
+app.use(express.static(__dirname+"/assets/"));
 
 
 app.get("/",(req,res)=>{
