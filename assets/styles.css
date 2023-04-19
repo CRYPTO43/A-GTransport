@@ -714,4 +714,16 @@ body {
   .offer-text{
     font-size: 1rem;
   }
+
+  .main-text{
+    font-size: 0.8rem;
+  }
+
+  .services-section{
+    height: 35vh;
+  }
+
+  .nav-items:link{
+    font-size: 0.8rem;
+  }
 }
