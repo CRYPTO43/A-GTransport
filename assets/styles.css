@@ -382,11 +382,11 @@ body {
     left: 70%;
   }
 
-  .email{
+  .email {
     margin-top: 0.5%;
   }
 
-  .about-section{
+  .about-section {
     height: 60vh;
   }
 }
@@ -420,50 +420,53 @@ body {
     margin-bottom: 15%;
   }
 
-  .contact-text{
+  .contact-text {
     font-size: 2rem;
   }
 
-  .moto{
+  .moto {
     font-size: 1rem;
   }
 }
 
-@media all and (max-width:900px){
+@media all and (max-width: 900px) {
+  .services-section{
+    height: 38vh;
+  }
 
-  .contact-btn{
+  .contact-btn {
     padding: 0.4rem 0.8rem;
   }
 
-  .contact-link:link{
+  .contact-link:link {
     margin-bottom: 10%;
   }
 
-  .services-text{
+  .services-text {
     font-size: 1.5rem;
   }
 
-  .divide-text{
+  .divide-text {
     font-size: 1rem;
   }
 
-  .service-item{
+  .service-item {
     font-size: 0.8rem;
   }
 
-  .services-divide{
+  .services-divide {
     gap: 2rem;
   }
 
-  .nav-items:link{
+  .nav-items:link {
     font-size: 1rem;
   }
 
-  .form-btn{
+  .form-btn {
     font-size: 0.8rem;
     height: 30px;
   }
-  
+
   .sev-quote {
     top: 2%;
     left: 60%;
@@ -472,28 +475,243 @@ body {
     font-size: 0.8rem;
   }
 
-  .main-header{
+  .main-header {
     gap: 2rem;
   }
 
-  .sev-img{
+  .sev-img {
     height: 250px;
     width: 500px;
   }
 
-  .offer-text{
+  .offer-text {
+    font-size: 1.5rem;
+  }
+
+  .delivery-text {
+    font-size: 1.5rem;
+  }
+
+  .network-text {
+    font-size: 2rem;
+  }
+
+  .quote-text {
+    font-size: 2rem;
+  }
+
+  .services-img {
+    position: relative;
+    top: 5%;
+    left: -15%;
+    width: 120%;
+    height: 100%;
+  }
+
+  .about-section{
+    height: 40vh;
+  }
+}
+
+@media all and (max-width: 780px) {
+  .main-text {
+    font-size: 1.2rem;
+  }
+
+  .contact-btn:link {
+    padding: 0;
+    
+  }
+
+  .contact-btn {
+    font-size: 0.2rem;
+  }
+
+  .services-img {
+    position: relative;
+    top: 5%;
+    left: -15%;
+    width: 120%;
+    height: 100%;
+  }
+
+  .network-img {
+    height: 50%;
+    width: 80%;
+  }
+
+  .offer-text,.delivery-text{
+    font-size: 1.2rem;
+  }
+
+  .about-section{
+    height: 47vh;
+  }
+
+  .form-btn{
+    font-size: 0.7rem;
+  }
+}
+
+
+
+@media all and (max-width:700px){
+  .sev-img{
+    height: 175px;
+    width: 275px;
+  }
+
+  .sev-text{
+    font-size: 1.2rem;
+  }
+
+  .sev-quote {
+    
+    top:0%;
+    left: 60%;
+    height: 20px;
+    width: 3.5rem;
+    font-size: 0.6rem;
+  }
+
+  .contact-text{
+    font-size: 1.2rem;
+  }
+
+  .moto{
+    font-size: 0.8rem;
+  }
+
+  address{
+    font-size: 0.8rem;
+  }
+
+  .about-section{
+    height: 30vh;
+  }
+
+  .main-header{
+    gap: 0.5rem;
+  }
+
+  .nav-items{
+    font-size: 0.8rem;
+  }
+
+  .main-nav{
+    gap: 12px;
+  }
+}
+
+@media all and (max-width:500px){
+  .services-divide{
+    gap: 1rem;
+  }
+
+  .contact-btn{
+    width: 4rem;
+    height: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-link:link{
+    height: auto;
+    width: auto;
+  }
+
+  .services-section{
+    height: 35vh;
+  }
+
+  .sev-img{
+    height: 200px;
+  }
+
+  .main-text{
+    font-size: 1rem;
+  }
+
+  .network-text{
     font-size: 1.5rem;
   }
 
   .delivery-text{
-    font-size: 1.5rem;
-  }
-
-  .network-text{
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .quote-text{
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .form-btn{
+    height: 1.5rem;
+    width: 4rem;
+    margin-top: 1rem;
+  }
+
+  .quote-section{
+    height: 35vh;
+  }
+
+  .sev-info{
+    font-size: 0.55rem;
+  }
+  .sev-text{
+    font-size: 1rem;
+  }
+
+  .sev-quote{
+    width: 2.8rem;
+  }
+
+  .about-section{
+    height: 38vh;
+  }
+
+  .services-text{
+    font-size: 1.2rem;
+  }
+
+  .main-header{
+    gap: 0.3rem;
+  }
+
+  .nav-items{
+    font-size: 0.6rem;
+  }
+
+  .main-nav{
+    gap: 10px;
+    font-size: 0.5rem;
+  }
+
+  @media all and (max-width:400px){
+    .about-section{
+      height: 60vh;
+    }
+  }
+
+  .services-section{
+    height: 45vh;
+  }
+
+  .services-divide{
+    gap: 1rem;
+  }
+
+  .services-img{
+    display:none;
+  }
+
+  .services-wrapper{
+    display: inline-block;
+  }
+
+  .services-main{
+    width: 100%;
+    margin-left: 34%;
+  }
+  .offer-text{
+    font-size: 1rem;
   }
 }
