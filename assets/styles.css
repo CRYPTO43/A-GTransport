@@ -720,7 +720,7 @@ body {
   }
 
   .services-section{
-    height: 38vh;
+    height: 40vh;
   }
 
   .nav-items:link{
@@ -732,6 +732,6 @@ body {
   }
 
   .about-section{
-    height: 48vh;
+    height: 50vh;
   }
 }
